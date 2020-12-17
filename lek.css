@@ -1,0 +1,130 @@
+/* CSS Document */
+@charset "UTF-8";
+
+* {
+	padding:0;
+	}
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size:12px; 
+	color:yellow;
+    line-height:18px;
+    background-color:#f27252;
+	}
+
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	max-height:500px;
+	background-color:#FFFFFF;
+	}
+
+div.headr {
+    height:115px;
+    background-color:#FFFFFF;
+}
+
+div.logoIm{
+    width: 25%;
+    display: block;
+    float:left;
+}
+
+div.title{
+    color:#f27252;
+    width: 75%;
+    text-align: center;
+    margin-top:50px;
+    display:block;
+    float:left;
+}
+
+div.hoe{
+    height:110px;
+}
+
+#logo {
+    display:block;
+    padding:10px;
+}
+
+#lamp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: 1;
+}
+
+#txtColor{
+    color: white;
+    font-size: 18px;
+}
+
+div.inputSpace {
+    display: block;
+    float:left;
+    width: 50%;
+    height:81%;
+    margin-top:10px;
+}
+
+div.outputSpace {
+    display: block;
+    float:left;
+    width:50%;
+    height:81%;
+    margin-top:10px;
+}
+
+@media screen and (min-width: 500px){
+    body {
+        font-size:16px; 
+        }
+
+    div.title{
+        font-size: 18px;
+        width: 65%;
+    }
+
+    div.hoe{
+        height:150px;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    div.hoe{
+        height:160px;
+    }
+    #lamp {
+        left: 300px;
+    }
+    #txtColor{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 960px){
+    body {
+        font-size:20px; 
+        }
+    div.title{
+        font-size: 24px;
+    }
+    #txtColor{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    div.title{
+        font-size: 28px;
+    }    
+    
+    #txtColor{
+        font-size: 28px;
+    }
+
+}
